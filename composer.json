@@ -1,0 +1,24 @@
+{
+    "name": "benaaacademy/auth",
+    "description": "The auth plugin of benaaacademy/platform",
+    "keywords": [
+        "framework",
+        "laravel",
+        "cms",
+        "plugins",
+        "platform",
+        "benaaacademy",
+        "auth"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "require": {
+        "benaaacademy/platform": "0.5.*",
+        "benaaacademy/users": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Benaaacademy\\Auth\\": "src"
+        }
+    }
+}
